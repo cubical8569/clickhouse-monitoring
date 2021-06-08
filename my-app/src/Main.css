@@ -1,0 +1,66 @@
+.dot {
+  width: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+}
+
+.title {
+  /*text-align: left;*/
+}
+
+.action {
+  outline: none;
+  border: none;
+  background-color: #FFAA00;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 100%;
+  margin-left: 10px;
+}
+
+.red {
+  border: 3px solid #f00;
+}
+
+.yellow {
+  border: 3px solid #ff0;
+}
+
+.green {
+  border:3px solid #0f0;
+  /*background-color: #0f0;*/
+}
+
+.url {
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
+
+.upper {
+  display: flex;
+  justify-content: center;
+  /*width: 100%;*/
+  padding: 5px;
+  background-color: #DDF8FF;
+}
+
+.monitor {
+  margin: 10px;
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
+
+.monitor .half {
+  width: 50%;
+}
+
+.vl {
+  /* TODO: change color to match */
+  border-left: 3px solid lightgrey;
+  margin-top: 10px;
+  height: 500px;
+}

@@ -1,0 +1,22 @@
+@import "table.css";
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,noto sans,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background: #444451;
+    color: #fff;
+}
+
+th, td {
+    padding: .75rem;
+}
+
+td.data {
+    border: 1px solid #444451;
+}
